@@ -1,0 +1,22 @@
+{
+    "containerDefinitions": [
+    {
+        "name": "express", 
+        "image": "nexus.hcqis.org:28443/express-hello-world:v_%BUILD_NUMBER%", 
+        "cpu": 512, 
+        "memory": 512, 
+        "portMappings": [
+        {
+            "protocol": "tcp",
+            "containerPort": 10080,
+            "hostPort": 0
+        }
+        ],
+        "essential": true, 
+        "dockerLabels": {
+          "service": "express"
+        }
+    }
+  ],
+  "family": "express"
+}
