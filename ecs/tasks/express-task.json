@@ -8,7 +8,7 @@
         "portMappings": [
         {
             "protocol": "tcp",
-            "containerPort": 10080,
+            "containerPort": 3000,
             "hostPort": 0
         }
         ],
