@@ -6,7 +6,7 @@
       {
           "targetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:615479239485:targetgroup/ExpressTG/3fe9ef993eca81da",
           "containerName": "express",
-          "containerPort": 8080
+          "containerPort": 3000
       }
   ],
   "role": "ess-ecr-role",
